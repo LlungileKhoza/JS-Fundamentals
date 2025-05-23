@@ -1,7 +1,7 @@
-const arg = ProcessingInstruction.argv[2];
+const arg = process[2];
 
 if (arg === undefined) {
     console.log("No argument");
-} else { 
+} else {
     console.log(arg);
 }
