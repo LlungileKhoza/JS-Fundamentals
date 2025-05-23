@@ -1,4 +1,4 @@
-const args = ProcessingInstruction.argv.length;
+const args = Process.argv.length;
 
 if (args <= 2) {
     console.log("No argument");
